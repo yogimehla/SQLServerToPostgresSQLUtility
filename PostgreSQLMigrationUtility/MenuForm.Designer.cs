@@ -56,27 +56,31 @@
             this.panel1.Controls.Add(this.btnConfiguration);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(596, 158);
+            this.panel1.Size = new System.Drawing.Size(795, 194);
             this.panel1.TabIndex = 0;
             // 
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(505, 87);
+            this.pictureBox2.Location = new System.Drawing.Point(673, 107);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(78, 30);
+            this.pictureBox2.Size = new System.Drawing.Size(104, 37);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 7;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Visible = false;
             this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // btnClose
             // 
             this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnClose.Location = new System.Drawing.Point(507, 121);
+            this.btnClose.Location = new System.Drawing.Point(676, 149);
+            this.btnClose.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(76, 23);
+            this.btnClose.Size = new System.Drawing.Size(101, 28);
             this.btnClose.TabIndex = 6;
             this.btnClose.Text = "Close";
             this.btnClose.UseVisualStyleBackColor = true;
@@ -85,52 +89,61 @@
             // linkLabel3
             // 
             this.linkLabel3.AutoSize = true;
-            this.linkLabel3.Location = new System.Drawing.Point(350, 121);
+            this.linkLabel3.Location = new System.Drawing.Point(467, 149);
+            this.linkLabel3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.linkLabel3.Name = "linkLabel3";
-            this.linkLabel3.Size = new System.Drawing.Size(88, 13);
+            this.linkLabel3.Size = new System.Drawing.Size(117, 17);
             this.linkLabel3.TabIndex = 5;
             this.linkLabel3.TabStop = true;
             this.linkLabel3.Text = "+91-9360223756";
+            this.linkLabel3.Visible = false;
             this.linkLabel3.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel3_LinkClicked);
             // 
             // linkLabel2
             // 
             this.linkLabel2.AutoSize = true;
-            this.linkLabel2.Location = new System.Drawing.Point(350, 104);
+            this.linkLabel2.Location = new System.Drawing.Point(467, 128);
+            this.linkLabel2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.linkLabel2.Name = "linkLabel2";
-            this.linkLabel2.Size = new System.Drawing.Size(133, 13);
+            this.linkLabel2.Size = new System.Drawing.Size(174, 17);
             this.linkLabel2.TabIndex = 4;
             this.linkLabel2.TabStop = true;
             this.linkLabel2.Text = "contact@techsapphire.net";
+            this.linkLabel2.Visible = false;
             this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel2_LinkClicked);
             // 
             // linkLabel1
             // 
             this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Location = new System.Drawing.Point(350, 87);
+            this.linkLabel1.Location = new System.Drawing.Point(467, 107);
+            this.linkLabel1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(149, 13);
+            this.linkLabel1.Size = new System.Drawing.Size(185, 17);
             this.linkLabel1.TabIndex = 3;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "http://www.techsapphire.net/";
+            this.linkLabel1.Visible = false;
             this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::PostgreSQLMigrationUtility.Properties.Resources.Techsapphirelogo;
-            this.pictureBox1.Location = new System.Drawing.Point(353, 11);
+            this.pictureBox1.Location = new System.Drawing.Point(471, 14);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(230, 73);
+            this.pictureBox1.Size = new System.Drawing.Size(307, 90);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Visible = false;
             // 
             // btnSourceMigration
             // 
             this.btnSourceMigration.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSourceMigration.Location = new System.Drawing.Point(174, 11);
+            this.btnSourceMigration.Location = new System.Drawing.Point(232, 14);
+            this.btnSourceMigration.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnSourceMigration.Name = "btnSourceMigration";
-            this.btnSourceMigration.Size = new System.Drawing.Size(157, 133);
+            this.btnSourceMigration.Size = new System.Drawing.Size(209, 164);
             this.btnSourceMigration.TabIndex = 1;
             this.btnSourceMigration.Text = "Source Migration";
             this.btnSourceMigration.UseVisualStyleBackColor = true;
@@ -139,9 +152,10 @@
             // btnConfiguration
             // 
             this.btnConfiguration.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnConfiguration.Location = new System.Drawing.Point(11, 11);
+            this.btnConfiguration.Location = new System.Drawing.Point(15, 14);
+            this.btnConfiguration.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnConfiguration.Name = "btnConfiguration";
-            this.btnConfiguration.Size = new System.Drawing.Size(157, 133);
+            this.btnConfiguration.Size = new System.Drawing.Size(209, 164);
             this.btnConfiguration.TabIndex = 0;
             this.btnConfiguration.Text = "Configuration";
             this.btnConfiguration.UseVisualStyleBackColor = true;
@@ -149,12 +163,13 @@
             // 
             // MenuForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(596, 158);
+            this.ClientSize = new System.Drawing.Size(795, 194);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "MenuForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MenuForm";
